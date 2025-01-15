@@ -2,11 +2,9 @@ import difflib
 import black
 import autopep8
 
-# 整形前のコード（例）
+# 整形前のコード(コードをそのまま記載)
 code_before = """
-def helloWorld():
-  print("Hello, World!")
-  return True
+
 """
 
 # 整形後のコード（Blackで整形）
